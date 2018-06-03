@@ -126,7 +126,7 @@ elif req[0] == "decode":
         print("Please, check your input.")
 elif req[0] == "help":
     print("Use encode <in[.ext]> <out>          -    to encode file \'in\' and save into \'out.huf\'.")
-    print("Use decode <in[.ext]> <out[.ext]>    -    to decode file \'in\' ann save into file \'out\'.")
+    print("Use decode <in> <out[.ext]>          -    to decode file \'in\' ann save into file \'out\'.")
     print("Use help                             -    to show this reference.")
 else:
     print("Unknown command!")
